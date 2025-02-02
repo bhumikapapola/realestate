@@ -1,0 +1,284 @@
+
+html{
+	scroll-behavior: smooth
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FAF6E3; /* Light background for the overall page */
+    color: #2A3663; /* Dark blue for text */
+}
+
+.navbar {
+    background-color: #2A3663; /* Dark blue background */
+    color: #FAF6E3; /* Light text */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #FAF6E3;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FAF6E3; /* Light text */
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #B59F78; /* Muted gold on hover */
+}
+
+body {
+    padding-top: 60px; /* Adjust based on navbar height */
+}
+
+h1, h2, h3 {
+    color: #2A3663; /* Dark blue for headings */
+}
+
+p {
+    color: #B59F78; /* Muted gold for secondary text */
+}
+
+.hero {
+     background: url('photo/hero-bg.jpg')  no-repeat center center/cover; /* Background image */
+    color: #FAF6E3; /* Light text for contrast */
+    text-align: center;
+    padding: 50px 20px;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content button {
+    background-color: #B59F78; /* Muted gold for buttons */
+    color: #FAF6E3; /* Light text on buttons */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-content button:hover {
+    background-color: #D8DBBD; /* Light greenish background on hover */
+    color: #2A3663; /* Dark blue text */
+}
+
+.about-us {
+    background-color: #FAF6E3; /* Light background color */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    flex: 1 1 500px;
+    text-align: left;
+    color: #2A3663; /* Dark blue text color */
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2A3663; /* Heading color */
+}
+
+.about-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #B59F78; /* Muted gold text color */
+}
+
+
+.latest-properties, .latest-rentals {
+    background-color: #D8DBBD; /* Light greenish background for property sections */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.properties-grid .property, .rentals-grid .rental {
+    background-color: #FAF6E3; /* Light background for property cards */
+    border: 1px solid #B59F78; /* Muted gold border */
+    padding: 20px;
+    border-radius: 5px;
+    color: #2A3663; /* Text color */
+}
+
+.properties-grid .property a, .rentals-grid .rental a {
+    color: #2A3663; /* Dark blue links */
+    text-decoration: none;
+}
+
+.properties-grid .property a:hover, .rentals-grid .rental a:hover {
+    color: #B59F78; /* Muted gold on hover */
+}
+
+.realtors-section {
+    background-color: #FAF6E3;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.realtors-container h2 {
+    font-size: 32px;
+    color: #2A3663;
+    margin-bottom: 30px;
+}
+
+.realtor-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature {
+    background-color: #D8DBBD;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    color: #2A3663;
+    margin: 10px 0;
+}
+
+.feature p {
+    color: #2A3663;
+    font-size: 14px;
+}
+
+.clients-section {
+    background-color: #2A3663;
+    color: #FAF6E3;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.clients-container h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #B59F78;
+    border-radius: 10px;
+    padding: 20px;
+    color:white;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.sign-in-section {
+    background: linear-gradient(to bottom right, #2A3663, #B59F78);
+    color: #FAF6E3;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sign-in-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sign-in-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.sign-in-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.sign-in-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.sign-in-form button {
+    background-color: #B59F78;
+    color: #FAF6E3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in-form button:hover {
+    background-color: #D8DBBD;
+    color: #2A3663;
+}
